@@ -25,7 +25,7 @@ public class Calculator_Test {
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"10.0");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
-       // capabilities.setCapability(MobileCapabilityType.APP,"");
+        capabilities.setCapability(MobileCapabilityType.APP,"C:\\Users\\ahmet\\IdeaProjects\\Kariyer_Appium\\Apps\\Calculator_8.4 (503542421)_Apkpure.apk");
 
         driver=new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

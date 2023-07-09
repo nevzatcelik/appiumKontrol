@@ -21,7 +21,7 @@ public class Calculator_Test {
     public void deneme1() throws MalformedURLException {
 
         DesiredCapabilities capabilities=new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"PIXEL2");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"PIXEL 2");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"10.0");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");

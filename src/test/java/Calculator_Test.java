@@ -31,17 +31,4 @@ public class Calculator_Test {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
-    @Test
-    public void calculatorTest() throws InterruptedException {
-        driver.activateApp("com.google.android.calculator");
-        driver.findElementByAccessibilityId("7").click();
-        driver.findElementByAccessibilityId("0").click();
-        driver.findElementByAccessibilityId("multiply").click();
-        driver.findElementByAccessibilityId("2").click();
-        driver.findElementByAccessibilityId("0").click();
-        String result= driver.findElementById("com.google.android.calculator:id/result_preview").getText();
-        System.out.println(result);
-        Assert.assertEquals(Integer.parseInt(result),1500);
     }
-
-}

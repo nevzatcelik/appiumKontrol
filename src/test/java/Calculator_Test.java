@@ -17,7 +17,7 @@ public class Calculator_Test {
 
     //  AppiumDriver<MobileElement> appiumDriver; //hem android de hem de ios da calisir
 
-    @BeforeTest
+    @Test
     public void deneme1() throws MalformedURLException {
 
         DesiredCapabilities capabilities=new DesiredCapabilities();
